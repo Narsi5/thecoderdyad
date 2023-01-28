@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+
+
+
+}
+.nav-list{
+ width : 50%;
+ /*background-color: rgb(5, 5, 5);*/
+ display: flex;
+ align-items: center;
+}
+.nav-list li{
+    list-style-type: none;
+    padding: 25px 25px;
+
+}
+.nav-list li a{
+text-decoration: none;
+font-style: bold;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    border-radius: 5px;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+
+
+}
+.background{
+    background:  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOM55YP4EQ8dNjyoMcuzt794x9VvHHMzhjew&usqp=CAU') ;
+    background-size: cover;
+    background-blend-mode: darken ;
+
+}
+.firstsection{
+    height:100%}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lavender;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+.firsthalf{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondhalf{
+    width: 50%;
+}
+.secondhalf img{
+
+    border: 2px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 18px;
+
+}
+.btn{
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: rgb(172, 139, 231);
+    padding: 5px;
+}
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: left;
+    max-width: 1600px;
+    background-color: aquamarine;
+}
+.para{
+    padding: 0px 80px;
+    background-color: aquamarine;
+}
+.secleft{
+    align-items: right;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center ;
+    max-width: 1600px;
+    background-color: aquamarine;
+    margin: right;
+}
+.sectionsubtag{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.thumbnail{
+    font-size: 20px;
+    background-color: aquamarine;
+
+}
+.thumbnail img{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid rgba(182, 132, 68, 0.808);
+}
